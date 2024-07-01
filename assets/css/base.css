@@ -1,0 +1,179 @@
+:root {
+  --color-text: #151515;
+}
+
+@font-face {
+  font-family: 'Font1';
+  src: url(../fonts/fontawesome-webfont.eot) format('eot'),
+       url(../fonts/fontawesome-webfont.ttf) format('ttf'),
+       url(../fonts/fontawesome-webfont.woff) format('woff'),
+       url(../fonts/fontawesome-webfont.woff2) format('woff2'),
+       url(../fonts/FontAwesome.otf) format('opentype');
+}
+
+* {
+  font-family: 'Font1';
+  color: #151515;
+}
+
+/* *::selection {
+  background-color: var(--color-two);
+  color: white;
+} */
+
+* {
+box-sizing: border-box;
+}
+
+* {
+color: #151515;
+}
+
+body {
+font-family: var(--font);
+}
+
+.container {
+width: 100%;
+max-width: 1280px;
+margin-left: auto;
+margin-right: auto;
+}
+
+@media (max-width: 1200px) {
+.container {
+  max-width: 960px;
+}
+}
+
+@media (max-width: 992px) {
+.container {
+  max-width: 720px;
+}
+}
+
+@media (max-width: 768px) {
+.container {
+  max-width: 540px;
+}
+}
+
+@media (max-width: 576px) {
+.container {
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+ul {
+list-style-type: none;
+}
+
+.button {
+  color: var(--color-text);
+  background: #AABC44;
+  padding: 15px 40px;
+  text-align: center;
+}
+
+.img-fluid {
+  margin: 0 auto; /* Centers the image within the column */
+  display: block; /* Ensures the image is a block to center properly */
+  max-width: 100%; /* Limits the image width to not exceed the container */
+  height: auto; /* Maintains aspect ratio */
+}
+
+.custom-col {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+/* Header */
+.inner-header {
+  z-index: 100;
+  padding: 0 40px;
+}
+
+.inner-header .inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.inner-header .inner-wrap .inner-menu ul{
+  display: flex;
+  margin-top: 20px;
+}
+
+.inner-header .inner-logo img {
+  background-size: cover;
+  padding-left: 15px;
+}
+
+.inner-header .inner-logo {
+  display: flex;
+  align-items: center;
+}
+
+.inner-header .inner-wrap .inner-menu li {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.inner-header .inner-wrap .inner-menu li a {
+  font-weight: 500;
+  color: var(--color-text);
+  font-size: 15px;
+}
+
+.inner-header .inner-bar {
+  display: none;
+}
+
+@media (max-width: 991.98px) {
+  .inner-header .inner-menu {
+    display: none;
+  }
+
+  .inner-header .inner-bar {
+    display: block;
+    font-size: 24px;
+  }
+}
+/* End Header */
+
+/* Footer */
+.footer {
+  background-image: url(../images/Trangchu/fotter.png);
+}
+
+.footer .inner-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.footer .inner-menu .inner-icon {
+  margin-right: 20px;
+}
+
+.footer .inner-menu .inner-icon i{
+  font-size: 30px;
+  color: #AEAEA4;
+}
+
+.footer .inner-contact,.inner-title {
+  margin-top: 23px;
+}
+/* End Footer */

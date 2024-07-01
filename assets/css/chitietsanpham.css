@@ -1,0 +1,172 @@
+/* Section One */
+.section-one {
+  background-image: url(../images/chitietsanpham/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 5rem;
+}
+
+.section-one .inner-taskbar span {
+  color: #949494;
+}
+
+.section-one .inner-content .inner-context .inner-title {
+  font-size: 2.8rem;
+}
+
+
+.section-one .inner-content .inner-context h3 {
+  font-size: 1rem;
+  font-weight: 550;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section-one .inner-content .price {
+  font-size: 2rem;
+  margin-right: 4rem;
+}
+.section-one .inner-content .weight {
+  font-size: 1.6rem;
+  color: #666;
+  letter-spacing: 0.6px;
+}
+.section-one .inner-content .ratings {
+  color: #69922B;
+  font-size: 1.4rem;
+  margin-right: .6rem;
+}
+.section-one .inner-content .new-tags {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #7B7B7B
+  /* background-color: #D4F59B;
+  padding: 7px 20px; */
+}
+
+.section-one .section-one-one {
+  margin-top: 10rem;
+}
+
+.section-one .section-one-one .inner-content .inner-tags {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* justify-content: center; */
+}
+
+.section-one .inner-content .details {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+
+}
+
+.section-one .inner-image {
+  max-width: 100%;
+  text-align: center;
+}
+
+.section-one .inner-image img {
+  max-width: 100%;
+}
+
+.section-one .section-one-one {
+  margin-bottom: 10rem;
+}
+
+.section-one .section-one-one .back-btn {
+  transform: rotate(90deg);
+}
+
+.section-one .section-one-one .next-btn {
+  transform: rotate(-90deg);
+}
+
+.section-one .section-one-two .inner-content {
+  margin-left: 6rem;
+}
+
+.section-one .section-one-two .inner-content .inner-text{
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+}
+
+.section-one .section-one-two .inner-content .inner-menu {
+  margin-left: 1.6rem;
+}
+
+.section-one .section-one-two .inner-content .inner-menu i {
+  color: #69922B;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.section-one .section-one-two .inner-content .inner-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.section-one .section-one-two .inner-content .inner-desc {
+  font-weight: 540;
+}
+
+.section-one .section-one-three .ratings {
+  color: #69922B;
+  font-size: 18px;
+}
+.section-one .section-one-three .new-tags {
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #D4F59B;
+  padding: 7px 20px;
+}
+
+.section-one .section-one-three .inner-tags {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-one .section-one-three  .details {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.section-one .section-one-three .product {
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.section-one .section-one-three .product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.section-one .section-one-three .product h2 {
+  font-size: 20px;
+  color: #333;
+}
+.section-one .section-one-three .product .price {
+  font-size: 20px;
+  color: green;
+  margin-right: 10px;
+}
+.section-one .section-one-three .product .weight {
+  font-size: 20px;
+  color: #666;
+}
+
+@media (max-width: 1199.98px) {
+  .section-one .section-one-one .inner-menu {
+    position: static;
+    display: none !important;
+  }
+}
+/* End Section One */

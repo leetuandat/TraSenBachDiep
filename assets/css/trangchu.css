@@ -1,0 +1,304 @@
+
+
+/* Section One */
+.section-one {
+  background-image: url(../images/Trangchu/backBanner.png);
+  height: 80vh;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+
+.section-one .inner-wrap {
+  display: flex;
+  align-items: center;
+  margin-top: -200px;
+}
+
+.section-one .col-12 .inner-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.section-one .inner-wrap .inner-desc {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.section-one .inner-img {
+  max-width: 100%;
+}
+
+.section-one .inner-img img{
+  max-width: 100%;
+}
+/* End Section One */
+
+/* Section Two */
+.section-two {
+  text-align: center;
+  background-image: url(../images/Trangchu/bgSanpham.png);
+  height: 100vh;
+  /* width: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+}
+
+.section-two .inner-title {
+  margin-top: 180px;
+}
+
+.section-two .container .inner-title {
+  font-size: 40px;
+  font-weight: 550;
+  margin-bottom: 80px;
+}
+
+.section-two .inner-box {
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.section-two .inner-image {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.section-two .inner-image img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.section-two .inner-box .inner-name {
+  font-weight: 500;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.section-two .inner-menu {
+  position: relative;
+}
+
+.section-two .inner-menu::before {
+  content: "";
+  display: block;
+  background-image: url(../images/Trangchu/backButton.png);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-size: contain;
+  left: -5%;
+  top: calc(50% - 40px);
+  z-index: 99;
+  background-position: center;
+}
+
+.section-two .inner-menu::after {
+  content: "";
+  display: block;
+  background-image: url(../images/Trangchu/nextButton.png);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-size: contain;
+  right: -5%;
+  top: calc(50% - 40px);
+  z-index: 99;
+  background-position: center;
+}
+
+@media (max-width: 611.98px) {
+  .section-two .inner-menu::after {
+    display: none;
+  }
+  .section-two .inner-menu::before {
+    display: none;
+  }
+}
+/* End Section Two */
+
+/* Section Three */
+.section-three {
+  background-image: url(../images/Trangchu/gioithieu.png);
+  height: 110vh;
+  /* width: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  margin-top: -300px;
+}
+
+.section-three .inner-title {
+  font-size: 33px;
+  text-align: center;
+  font-weight: 550;
+  margin-top: 200px;
+}
+
+.section-three .inner-text {
+  margin-top: 200px;
+}
+
+.section-three .inner-text .inner-desc {
+  margin-bottom: 50px;
+}
+
+.section-three::after {
+  position: absolute;
+  content: "0999.999.999";
+  background-image: url(../images/Trangchu/introduce-number-phone.png);
+  width: 200px;
+  height: 60px;
+  background-size: contain;
+  z-index: 99;
+  top: 300px;
+  right: 50px;
+  color: #A5B839;
+  font-size: 22px;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 35px;
+  text-align: center;
+  background-position: center;
+}
+
+.section-three .inner-image {
+  max-width: 100%;
+}
+
+.section-three .inner-image img{
+  max-width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .section-three {
+    margin: 0 auto; 
+  }
+}
+
+/* Check for any additional overlapping caused by other properties */
+@media (max-width: 1200px) {
+  .section-two,
+  .section-three {
+    position: static;  /* Overrides any 'absolute' positioning on smaller screens */
+    overflow: visible; /* Ensures content is not clipped */
+    height: auto; /* Adjust height to content */
+  }
+}
+/* 
+@media (max-width: 992px) {
+  .section-three {
+    margin-top: 0px;  
+  }
+} */
+
+/* Check for any additional overlapping caused by other properties */
+/* @media (max-width: 992px) {
+  .section-two,
+  .section-three {
+    position: static;  
+    overflow: visible; 
+    height: auto; 
+  }
+} */
+/* End Section Three */
+
+/* Section Four */
+.section-four {
+  background-image: url(../images/Trangchu/bannernghenhan.png);
+  height: 100vh;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 150px;
+}
+
+.section-four .inner-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 550;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.section-four .inner-box {
+  text-align: center;
+}
+
+.section-four .inner-box .inner-name {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section-four .input-field {
+  width: 80%;
+  padding: 12px;
+  margin-right: 10px;
+  border: 2px solid #4CAF50;
+}
+
+.section-four .inner-sale {
+  font-size: 32px;
+  font-weight: 550;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 40px;
+}
+
+.section-four form {
+  text-align: center;
+}
+
+.section-four .sale {
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.section-four .sale::before {
+content: "";
+background-image: url(../images/Trangchu/product-la.png);
+width: 80px;
+height: 80px;
+background-size: contain;
+background-repeat: no-repeat;
+transform: rotate(30deg);
+position: absolute;
+top: 65%;
+left: -40px;
+}
+
+.section-four .submit-btn {
+  width: 15%;
+  border: none;
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  .section-four .submit-btn {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 768.98px) {
+  .section-four .submit-btn {
+    margin-top: 20px;
+  }
+}
+/* End Section Four */
+

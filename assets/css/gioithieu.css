@@ -1,0 +1,45 @@
+/* Section One */
+.section-one {
+  background-image: url(../images/gioi-thieu/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100% !important;
+  height: 77vh;
+  /* background-position-y: -150px; */
+  background-position: 50% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-one .inner-content .inner-title {
+  color: #A8BA3F;
+  font-size: 35px;
+}
+
+.section-one .inner-content .inner-desc {
+  font-size: 70px;
+  margin-top: -30px;
+}
+/* End Section One */
+
+/* Section Two */
+.section-two {
+  background-image: url(../images/gioi-thieu/banner02.jpg);
+  max-width: 100%;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+}
+
+.section-two .inner-content .inner-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.section-two .inner-image img {
+  max-width: 100%;
+}
+/* End Section Two */

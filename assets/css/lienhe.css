@@ -1,0 +1,53 @@
+/* Section One */
+.section-one {
+  background-image: url(../images/lien-he/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form {
+  margin-top: -10rem;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.contact-form h2 {
+  text-align: left;
+  color: #333;
+  font-size: 21px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #899A29;
+  border-radius: 4px;
+  resize: none; /* Prevent textarea from being resizable */
+}
+
+.section-one button {
+  padding: 15px 35px;
+  background-color: #899A29;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.section-one button:hover {
+  background-color: #45a049;
+}
+
+/* End Section One */
